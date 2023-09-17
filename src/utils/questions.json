@@ -1,0 +1,27 @@
+[
+    {
+        "question": "question1",
+        "answers": ["ans1","ans2","ans3","ans4"],
+        "trueAnswer": "ans1"
+    },
+    {
+        "question": "question1",
+        "answers": ["ans1","ans2","ans3","ans4"],
+        "trueAnswer": "ans2"
+    },
+    {
+        "question": "question1",
+        "answers": ["ans1","ans2","ans3","ans4"],
+        "trueAnswer": "ans3"
+    },
+    {
+        "question": "question1",
+        "answers": ["ans1","ans2","ans3","ans4"],
+        "trueAnswer": "ans4"
+    },
+    {
+        "question": "question1",
+        "answers": ["ans1","ans2","ans3","ans4"],
+        "trueAnswer": "ans5"
+    }
+]
