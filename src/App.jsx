@@ -1,7 +1,10 @@
+import QUESTIONS from "./utils/questions.json";
 function App() {
+  console.log(QUESTIONS)
+  
   return (
     <>
-      <h1>App</h1>
+    App
     </>
   )
 }
