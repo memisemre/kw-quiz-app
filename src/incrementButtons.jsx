@@ -4,7 +4,7 @@ const Buttons = () =>{
   const dispatch = useDispatch(); 
     return(
      <>
-      <button onClick={()=>dispatch(incrementTrue())}>True Answer</button>
+      <button onClick={()=>dispatch(incrementTrue("osman"))}>True Answer</button>
       <button onClick={()=>dispatch(incrementFalse())}>False Answer</button>
      </>
     )

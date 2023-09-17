@@ -7,8 +7,9 @@ export const Answers = createSlice({
     falseAnswers: 0,
   },
   reducers: {
-    incrementTrue: (state) => {
+    incrementTrue: (state, action) => {
       state.trueAnswers += 1;
+      console.log(action.payload);
     },
     incrementFalse: (state) => {
       state.falseAnswers += 1;
