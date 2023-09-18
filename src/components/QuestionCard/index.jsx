@@ -1,31 +1,24 @@
-import React from "react";
-import { useDispatch } from "react-redux";
 import { incrementFalse, incrementTrue } from "../../stores/answerStore";
-
-const QuestionCard = ({ question }) => {
-  const dispatch = useDispatch();
-
-  const checkAnswer = (selectedAnswer, correctAnswer) => {
-    if (selectedAnswer === correctAnswer) {
-      dispatch(incrementTrue());
-    } else {
-      dispatch(incrementFalse());
+import {useDispatch} from "react-redux";
+const QuestionCard = (props) => {
+    const dispatch = useDispatch(); 
+    const checkAnswer = (correctAnswer,trueAnswer)=>{
+        if(correctAnswer === trueAnswer){
+            dispatch(incrementTrue());
+            return;
+        }
+        else{
+            dispatch(incrementFalse());
+        }
     }
-  };
-
-  return (
-    <div>
-      <h1>{question.question}</h1>
-      {question.answers.map((answer, index) => (
-        <button
-          key={index}
-          onClick={() => checkAnswer(answer, question.trueAnswer)}
-        >
-          {answer}
-        </button>
-      ))}
-    </div>
-  );
-};
+    return (
+        <div>
+            <h1>{props.question.question}</h1>
+            {props.question.answers.map((answer, index) => (
+                <button key={index} onClick={() => checkAnswer(answer, props.question.trueAnswer)}>{answer}</button>
+            ))}
+        </div>
+    )
+}
 
 export default QuestionCard;

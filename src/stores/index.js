@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import Answers from "./stores/answerStore.js";
+import Answers from "./answerStore.js";
 export default configureStore({
   reducer: {
     answers: Answers,

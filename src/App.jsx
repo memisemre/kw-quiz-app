@@ -1,8 +1,6 @@
 import React from "react";
 import QUESTIONS from "./utils/questions.json";
 import { useSelector } from 'react-redux';
-import Buttons from "./incrementButtons.jsx";
-import LoadingAnimation from "./components/loadingAnimation";
 import QuestionCard from "./components/QuestionCard";
 function App() {
   const trueAnswers = useSelector(state => state.answers.trueAnswers);
