@@ -1,27 +1,27 @@
 [
     {
-        "question": "question1",
-        "answers": ["ans1","ans2","ans3","ans4"],
-        "trueAnswer": "ans1"
+        "question": "Aslan Akbey’in, Ali Candan’ı Kurtlar Vadisi Operasyonu için Türkiye’ye çağırmadan önce Ali Candan nerede görevdeydi?",
+        "answers": ["Italya","İsviçre","Suriye","Kosova"],
+        "trueAnswer": "Kosova"
     },
     {
-        "question": "question1",
-        "answers": ["ans1","ans2","ans3","ans4"],
-        "trueAnswer": "ans2"
+        "question": "Sık sık ‘babayiğit’ diyen kendiside harbi babayiğit olan karakter kimdir?",
+        "answers": ["Süleyman Çakır","Pala","Doğu Bey","Polat Alemdar"],
+        "trueAnswer": "Pala"
     },
     {
-        "question": "question1",
-        "answers": ["ans1","ans2","ans3","ans4"],
-        "trueAnswer": "ans3"
+        "question": "Kurtlar Konseyi’nin tek yasası nedir?",
+        "answers": ["Sessizlik","Suskunluk","Gizlilik","Bağlılık"],
+        "trueAnswer": "Suskunluk"
     },
     {
-        "question": "question1",
-        "answers": ["ans1","ans2","ans3","ans4"],
-        "trueAnswer": "ans4"
+        "question": "O zamanların Türk Pablo Escobar’ı olan Abüzer Kömürcü’nün oğlu Zürriyetsiz Erdal’ı kim öldürmüştür?",
+        "answers": ["Ali Candan","Elıf","Tuncay","Candan"],
+        "trueAnswer": "Candan"
     },
     {
-        "question": "question1",
-        "answers": ["ans1","ans2","ans3","ans4"],
-        "trueAnswer": "ans5"
+        "question": "Laz Ziya’nın sağ kolu olan her daim yanında bulunan hem dostu hem adamı olan kimdir?",
+        "answers": ["Şeyhmuz","Süleyman Çakır","Seyfo Dayı","Orhan"],
+        "trueAnswer": "Orhan"
     }
 ]
